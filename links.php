@@ -68,7 +68,7 @@ $this->need('includes/sidebar.php');
       <a class='links-url' href='{url}'>
         <div class='mdui-col-sm-6'>
           <div class='links-card mdui-shadow-10'>
-            <div class='links-img'><img class='mdui-img-circle' src='{image}'/></div>
+            <div class='links-img'><img class='mdui-img-circle' src='http://api.byi.pw/favicon/?url={url}'/></div>
             <div class='links-name'>{name}</div>
             <div class='links-describe'>{description}</div>
           </div>
