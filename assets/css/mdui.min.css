@@ -7167,12 +7167,11 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-btn,.mdui-fab {
 	position:relative;
 	display:inline-block;
-	min-width:88px;
+/*	min-width:88px;padding:0 16px;	margin:0;
+*/
 	height:36px;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	padding:0 16px;
-	margin:0;
 	overflow:hidden;
 	font-size:14px;
 	font-weight:500;

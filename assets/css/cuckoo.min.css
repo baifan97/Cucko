@@ -88,7 +88,7 @@ body {
 }
 .page-img {
 	background:center center no-repeat;
-	height:250px;
+	height:220px;
 	background-size:cover
 }
 .right {
@@ -242,7 +242,7 @@ a.toc-link {
 }
 .article-pic {
 	background:center center no-repeat;
-	height:300px;
+	height:320px;
 	background-size:cover
 }
 .article-subtitle a {
@@ -283,6 +283,8 @@ a.toc-link {
 .article-page-img {
 	max-width:100%;
 	display:block;
+	border-radius: 2px;
+	box-shadow:0 6px 8px 0 rgba(0,0,0,.2);
 	margin:10px auto
 }
 .article-page pre {
