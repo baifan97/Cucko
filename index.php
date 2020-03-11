@@ -54,11 +54,11 @@ if ($sticky && $this->is('index') || $this->is('front')) {
             </div>
             <div class="mdui-card-primary page-primary">
               <div class="mdui-card-primary-title"><a href="<?php $this->permalink() ?>"><?php $this->sticky();$this->title(); ?></a></div>
-              <div class="mdui-card-primary-subtitle"><?php $this->date(); ?>｜<?php $this->commentsNum('0 条评论', '1 条评论', '%d 条评论'); ?></div>
+              <div class="mdui-card-primary-subtitle"><?php $this->date(); ?>｜<?php $this->commentsNum('0 条评论', '1 条评论', '%d 条评论'); ?><a href="<?php $this->permalink() ?>"><button class="mdui-btn mdui-float-right mdui-text-color-theme">阅读全文</button></a></div>
             </div>
             <div class="mdui-card-content page-content"><?php $this->excerpt(70, ' ...'); ?></div>
             <div class="mdui-card-actions">
-              <a href="<?php $this->permalink() ?>"><button class="mdui-btn mdui-float-right mdui-text-color-theme">点击查看</button></a>
+              
             </div>
           </div>
         <?php
@@ -67,10 +67,12 @@ if ($sticky && $this->is('index') || $this->is('front')) {
             <div class="mdui-card-primary">
               <div class="daily-icon"><i class="mdui-icon material-icons">insert_comment</i></div>
               <div class="mdui-card-primary-title daily-title"><a href="<?php $this->permalink() ?>"><?php $this->sticky();$this->title(); ?></a></div>
-              <div class="mdui-card-primary-subtitle daily-subtitle"><?php $this->date(); ?>｜<?php $this->commentsNum('0 条评论', '1 条评论', '%d 条评论'); ?></div>
+              <div class="mdui-card-primary-subtitle daily-subtitle"><?php $this->date(); ?>｜<?php $this->commentsNum('0 条评论', '1 条评论', '%d 条评论'); ?>
+               <a href="<?php $this->permalink() ?>"><button class="mdui-btn mdui-float-right mdui-text-color-theme">阅读全文</button></a>
+              </div>
             </div>
             <div class="mdui-card-actions daily-button">
-              <a href="<?php $this->permalink() ?>"><button class="mdui-btn mdui-float-right mdui-text-color-theme">点击查看</button></a>
+             
             </div>
           </div>
       <?php
@@ -80,9 +82,11 @@ if ($sticky && $this->is('index') || $this->is('front')) {
       <div class="changePage">
         <?php $this->pageLink('下一页', 'next'); ?>
       </div>
-<?php else : ?>
-  暂无文章
-<?php endif; ?>
   </div>
+<?php
+    else : ?>
+  暂无文章
+<?php
+    endif; ?>
 </div>
 <?php $this->need('includes/footer.php'); ?>
