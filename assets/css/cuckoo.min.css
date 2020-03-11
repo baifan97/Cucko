@@ -1,4 +1,17 @@
-
+/**
+ * .______    __    __       ___        ______
+ * |   _  \  |  |  |  |     /   \      /  __  \
+ * |  |_)  | |  |__|  |    /  ^  \    |  |  |  |
+ * |   _  <  |   __   |   /  /_\  \   |  |  |  |
+ * |  |_)  | |  |  |  |  /  _____  \  |  `--'  |
+ * |______/  |__|  |__| /__/     \__\  \______/
+ * 
+ * Style
+ * 
+ * @author Bhao
+ * @link https://dwd.moe/
+ * @version 1.0.1
+ */
  .mdui-textfield-expandable.mdui-textfield-expanded {
 	width:25%
 }
@@ -229,7 +242,7 @@ a.toc-link {
 }
 .article-pic {
 	background:center center no-repeat;
-	height:230px;
+	height:320px;
 	background-size:cover
 }
 .article-subtitle a {
@@ -555,4 +568,87 @@ a.toc-link {
 	border-radius:5px !important
 }
 .emoji-top {
-	padding:1
+	padding:15px
+}
+.emoji-cancel {
+	float:right;
+	position:relative;
+	top:-10
+}
+.emoji-owo {
+	padding:10px
+}
+.emoji-emoji {
+	margin:3px !important;
+	width:40px !important;
+	height:30px !important;
+	padding:3px !important;
+	margin-top:5px !important;
+	min-width:20px !important;
+	min-height:20px !important;
+	line-height:28px !important;
+	margin-bottom:5px !important;
+	border-radius:5px !important
+}
+.emoji-tieba {
+	margin:3px !important;
+	width:40px !important;
+	height:30px !important;
+	padding:3px !important;
+	margin-top:5px !important;
+	min-width:20px !important;
+	min-height:20px !important;
+	line-height:28px !important;
+	margin-bottom:5px !important;
+	border-radius:5px !important
+}
+.emoji-hj {
+	margin:3px !important;
+	padding:3px !important;
+	height:auto !important;
+	min-width:auto !important;
+	border-radius:5px !important
+}
+.emoji-hj img {
+	max-height:52px;
+	border-radius:3px
+}
+.emoji-qwq {
+	margin:3px !important;
+	width:40px !important;
+	padding:3px !important;
+	height:36px !important;
+	margin-top:5px !important;
+	min-width:20px !important;
+	min-height:20px !important;
+	line-height:0 !important;
+	margin-bottom:5px !important;
+	border-radius:5px !important
+}
+.emoji-qwq img {
+	width:30px;
+	height:30px
+}
+.mdui-dialog-content {
+	padding:0;
+	height:202px
+}
+.emoji-img-tieba {
+	margin:0;
+	height:30px;
+	box-shadow:none;
+	display:inline-block;
+	vertical-align:middle
+}
+.emoji-img-qwq {
+	margin:0;
+	height:30px;
+	box-shadow:none;
+	display:inline-block;
+	vertical-align:middle
+}
+.emoji-img-hj {
+	max-height:52px;
+	border-radius:5px;
+	vertical-align:middle
+}
